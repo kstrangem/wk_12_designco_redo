@@ -1,0 +1,562 @@
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+    width: 895px;
+}
+/* Navigation */
+nav {
+    position: fixed;
+    background-color: #000;
+    width: 640px;
+    color: #fff;
+    font-family: sans-serif;
+    height: 60px;
+    font-weight: bolder;
+    background-size: 5%;
+    margin-left: 1em;
+    z-index: 1;
+}
+.nav {
+    position: fixed;
+    left: 615px;
+    top: 15px;
+    max-height: 30px;
+}
+.brand_name {
+    font-size: 20px;
+    padding-left: 16px;
+    font-family: sans-serif;
+}
+/* Header */
+header {
+    background: url(../images/purple-bg.jpeg) no-repeat;
+    height: 960px;
+    color: #fff;
+    margin-bottom: -30em;
+    margin-left: 1em;
+}
+.headerlink {
+    color: #fff;
+    text-decoration:none;
+    font-family: sans-serif;
+    font-size: 25px;
+    border: 2px solid #fff;
+    padding: 15px 30px;
+    position: absolute;
+    left: 250px;
+    top:350px;
+}
+.be {
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 60px;
+    position: absolute;
+    left: 230px;
+    top: 120px;
+    margin: 1em;
+}
+.random {
+    font-family: sans-serif;
+    font-size: 60px;
+    font-weight: bolder;
+    position: absolute;
+    left: 200px;
+    top: 200px;
+}
+/* Body */
+p {
+    font-family: sans-serif;
+    border-bottom: 1px solid lightgrey;
+    padding: 1em;
+    max-width: 640px;
+    margin-left: 1em;
+    line-height: 1.5em;
+}
+h2 {
+    margin-top: 2em;
+    margin-left: 1em;
+}
+a {
+    color: black;
+}
+
+.headerlink:hover {
+    background-color:white;
+    color:black;
+}
+.project1 {
+    position: relative;
+    background-image: url(../images/1-cocktail.jpeg) ;
+    padding: 140px 114px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: sans-serif;
+    float: left; margin: 0px 5px 5px 1em;
+}
+.project1:hover {
+     background:white;
+     color:black;
+}
+.project2 {
+    position: relative;
+    background-image: url(../images/2-disco.jpeg);
+    padding: 140px 114px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: sans-serif;
+    float: left; margin: 0px 5px 5px 0px;
+}
+.project2:hover {
+     background:white;
+     color:black;
+}
+.project3 {
+    background-image: url(../images/3-bookstore.jpeg);
+    padding: 140px 114px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: sans-serif;
+    float: left; margin: 0px 5px 5px 1em;
+}
+.project3:hover {
+     background:white;
+     color:black;
+}
+.project4 {
+    background-image: url(../images/4-traffic.jpeg);
+    padding: 140px 114px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: sans-serif;
+    float: left; margin: 0px 5px 5px 0px;
+}
+.project4:hover {
+     background:white;
+     color:black;
+}
+.project5 {
+    background-image: url(../images/5-concert.jpg) ;
+    padding: 140px 114px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: sans-serif;
+    float: left; margin: 0px 5px 5px 1em;
+}
+.project5:hover {
+     background:white;
+     color:black;
+}
+.project6 {
+    background-image: url(../images/6-nightlife.jpg);
+    padding: 140px 114px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: sans-serif;
+    float: left; margin:  0px 5px 5px 0px;
+
+}
+.project6:hover {
+     background:white;
+     color:black;
+}
+.project7 {
+    background-image: url(../images/7-bar.jpg);
+    padding: 140px 114px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: sans-serif;
+    float: left; margin:  0px 5px 50px 1em;
+}
+.project7:hover {
+     background:white;
+     color:black;
+}
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1em;
+    margin: 1em;
+    border-top: 1px solid lightgrey;
+    width: 640px;
+    clear: both;
+}
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+/* Main Content */
+
+html {
+        box-sizing: border-box;
+    }
+    *, *:before, *:after {
+        box-sizing: inherit;
+    }
+h1 h2 h3 h4 h5 {
+    font-size: 1em;
+    text-transform:uppercase;
+    }
+img {
+    max-width: 100%;
+    }
+.page-header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: #000;
+    color: #fff;
+    padding: 1em;
+    z-index: 1;
+    }
+.page-header h1 {
+    margin: 0;
+    }
+.page-header .main-nav {
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    }
+body {
+    padding-top: 3.23em;
+    }
+
+/* Jumbotron */
+
+.page-section {
+    padding: 1em;
+    border-bottom:1px solid #ddd;
+    }
+.btn {
+    border: 0.125em solid #000;
+    padding: 0.75em 1em;
+    font-size: 1.25em;
+    text-decoration: none;
+    color: #000;
+    display: inline-block;
+    }
+.btn:hover {
+    background: #000;
+    color: #fff;
+    }
+.jumbotron {
+    position: relative;
+    padding: 0;
+    }
+.jumbotron-bg {
+    position: relative;
+    z-index: -10;
+    display: block;
+    width: 100%;
+    }
+.jumbotron-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align:center;
+    line-height: 1;
+
+    }
+.jumbotron-content h2 {
+    font-size: 3em;
+    margin-top: 0;
+    color: #fff;
+    }
+.jumbotron-content .btn {
+    color: #fff;
+    border-color: #fff;
+    }
+.jumbotron-content .btn:hover {
+    background-color: #fff;
+    color: #000;
+    }
+
+/* Link Grid */
+
+.project-thumb {
+    position: relative;
+    width: 50%;
+    float: left;
+    background-color: hsla(0,100%,100%,0.75);
+    border:2px solid #fff;
+    }
+    .project-thumb:hover {
+    background-color: hsla(0, 0%, 0%, 0.5);
+    }
+.project-thumb img {
+    position: relative;
+    z-index: -10;
+    }
+.project-thumb h3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    text-align: center;
+    color: #000;
+    }
+.project-thumb:hover h3 {
+    color: #fff;
+    }
+
+ /* Footer */
+
+ .page-footer {
+    text-align: center;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers
+ */
+
+.hidden {
+    display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ *
+ * 1. For long content, line feeds are not interpreted as spaces and small width
+ *    causes content to wrap 1 word per line:
+ *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    white-space: nowrap; /* 1 */
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+    white-space: inherit;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 1.25dppx),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   https://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster */
+        -webkit-box-shadow: none !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre {
+        white-space: pre-wrap !important;
+    }
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
